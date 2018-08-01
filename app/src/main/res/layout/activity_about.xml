@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:gravity="center"
+    android:orientation="vertical"
+    android:weightSum="1"
+    tools:context="id.co.blogspot.infogabut.webview.about">
+
+    <!--<ImageView-->
+        <!--android:id="@+id/logoabout"-->
+        <!--android:layout_width="150dp"-->
+        <!--android:layout_height="150dp"-->
+        <!--android:layout_gravity="center_horizontal"-->
+        <!--android:layout_marginBottom="110dp"-->
+        <!--android:src="@drawable/logosd" />-->
+
+    <TextView
+        android:id="@+id/tulisansatu"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="version"
+        android:textColor="@color/colorPrimary"
+        android:textSize="40sp" />
+
+    <TextView
+        android:id="@+id/tulisandua"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="1.1.0"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="52sp" />
+
+    <TextView
+        android:id="@+id/textUnderline"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Bhakti Anindya App"
+        android:textColor="@color/colorPrimaryDark"
+        android:textSize="17sp"
+        android:textStyle="bold" />
+
+</LinearLayout>

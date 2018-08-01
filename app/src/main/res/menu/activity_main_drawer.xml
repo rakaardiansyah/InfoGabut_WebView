@@ -4,34 +4,28 @@
     tools:showIn="navigation_view">
 
     <group android:checkableBehavior="single">
-        <item
-            android:id="@+id/nav_camera"
-            android:icon="@drawable/ic_menu_camera"
-            android:title="Import" />
-        <item
-            android:id="@+id/nav_gallery"
-            android:icon="@drawable/ic_menu_gallery"
-            android:title="Gallery" />
-        <item
-            android:id="@+id/nav_slideshow"
-            android:icon="@drawable/ic_menu_slideshow"
-            android:title="Slideshow" />
-        <item
-            android:id="@+id/nav_manage"
-            android:icon="@drawable/ic_menu_manage"
-            android:title="Tools" />
+        <item android:id="@+id/nav_Prestasi" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Prestasi" />
+        <item android:id="@+id/nav_TentangBhaktiAnindya" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Tentang Bhakti Anindya" />
+        <item android:id="@+id/nav_ProgramStudi" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Program Studi" />
+        <item android:id="@+id/nav_Fasilitas" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Fasilitas" />
+        <item android:id="@+id/nav_Pendaftaran" android:icon="@android:drawable/ic_dialog_dialer"
+            android:title="Pendaftaran" />
     </group>
 
     <item android:title="Communicate">
         <menu>
             <item
-                android:id="@+id/nav_share"
-                android:icon="@drawable/ic_menu_share"
-                android:title="Share" />
-            <item
-                android:id="@+id/nav_send"
-                android:icon="@drawable/ic_menu_send"
-                android:title="Send" />
+                android:id="@+id/nav_Loker"
+                android:icon="@android:drawable/btn_star"
+                android:title="Loker Khusus SMK Bhakti Anindya" />
+            <!--<item-->
+                <!--android:id="@+id/nav_send"-->
+                <!--android:icon="@android:drawable/ic_menu_send"-->
+                <!--android:title="Contact us" />-->
         </menu>
     </item>
 
